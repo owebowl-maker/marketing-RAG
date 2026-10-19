@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f5f7fa;
+  color: #1f2937;
+}
+
+a {
+  color: inherit;
+}
+
+/* ---------- 词条：虚线下划线，悬停弹出卡片 ---------- */
+.gloss-term {
+  color: #2563eb;
+  border-bottom: 1px dashed #2563eb;
+  cursor: help;
+  padding: 0 1px;
+}
+
+.gloss-term:hover {
+  background: #eff4ff;
+}
+
+/* ---------- 回答正文 ---------- */
+.answer-markdown {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.answer-markdown blockquote {
+  margin: 8px 0;
+  padding: 8px 14px;
+  border-left: 3px solid #2563eb;
+  background: #f5f8ff;
+  color: #1f2937;
+}
+
+.answer-markdown table {
+  border-collapse: collapse;
+}
+
+.answer-markdown th,
+.answer-markdown td {
+  border: 1px solid #e5e7eb;
+  padding: 6px 10px;
+}
+
+.answer-markdown small {
+  color: #6b7280;
+}
